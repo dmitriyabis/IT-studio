@@ -1,0 +1,33 @@
+.examples {
+  padding: 100px 0 130px 0;
+  background-color: rgba(246, 246, 248, 1);
+
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52.66px;
+    text-align: center;
+    color: $black-color;
+    margin-bottom: 50px;
+  }
+
+  &__desc {
+    width: 730px;
+    font-weight: 400;
+    line-height: 25.36px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+
+  &__btn {
+    @extend %btn-template;
+  }
+}

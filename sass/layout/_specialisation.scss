@@ -1,0 +1,59 @@
+.specialisation {
+  padding: 100px 0 85px 0;
+  background-image: linear-gradient(rgba(80, 77, 194, 1) 50%, $white-color 50%);
+
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52.66px;
+    text-align: left;
+    width: 540px;
+    color: $white-color;
+  }
+
+  &__button {
+    @extend %btn-template;
+    margin: 0;
+  }
+}
+
+.specs {
+  display: flex;
+  gap: 30px;
+  counter-reset: title;
+  padding-bottom: 85px;
+  border-bottom: 1px solid $light-grey-color;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: left;
+    color: $black-color;
+    margin: 30px 0;
+
+    &::before {
+      counter-increment: title;
+      content: "0" counter(title) ". ";
+      color: $blue-color;
+    }
+  }
+
+  &__desc {
+    font-weight: 400;
+    line-height: 25.36px;
+    text-align: left;
+    margin-bottom: 47px;
+  }
+
+  &__link {
+    @extend %link-template;
+  }
+}

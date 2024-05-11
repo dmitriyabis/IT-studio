@@ -1,0 +1,38 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 40px 0;
+  border-bottom: 1px solid rgb(161, 161, 161, 1);
+}
+
+.nav {
+  display: flex;
+
+  &__list {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+  }
+
+  &__link {
+    display: flex;
+    position: relative;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: $white-color;
+  }
+}
+
+.current::after {
+  display: block;
+  width: 125%;
+  height: 2px;
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  left: -10%;
+  background-color: $white-color;
+}

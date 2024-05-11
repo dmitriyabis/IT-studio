@@ -1,0 +1,81 @@
+.work {
+  padding: 110px 0 105px 0;
+
+  &__title {
+    width: 739px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52.66px;
+    text-align: center;
+    margin: 0 auto;
+    color: $dark-color;
+    margin-bottom: 32px;
+  }
+
+  &__desc {
+    width: 730px;
+    font-weight: 400;
+    line-height: 25.36px;
+    text-align: center;
+    color: $grey-color;
+    margin: 0 auto;
+  }
+
+  &__btn {
+    @extend %btn-template;
+  }
+}
+
+.our-work {
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+  margin-top: 70px;
+  margin-bottom: 55px;
+
+  &__item {
+    display: flex;
+    gap: 17px;
+  }
+
+  &__text {
+    margin-top: 46px;
+  }
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21.94px;
+    text-align: left;
+    color: $black-color;
+    margin-bottom: 12px;
+  }
+
+  &__desc {
+    width: 222px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.19px;
+    text-align: left;
+  }
+}
+
+.inner-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 1px solid $blue-color;
+}
+
+.outer-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 1px solid $light-grey-color;
+}

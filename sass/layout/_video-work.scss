@@ -1,0 +1,55 @@
+.video-work {
+  padding: 70px 0 85px 0;
+  background-image: url("../images/work-bg.png");
+  background-repeat: no-repeat;
+
+  &__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52.66px;
+    text-align: center;
+    color: $white-color;
+    margin-bottom: 30px;
+  }
+
+  &__desc {
+    font-weight: 400;
+    line-height: 25.36px;
+    text-align: center;
+    color: $white-color;
+    margin-bottom: 70px;
+  }
+}
+
+.video {
+  display: flex;
+  width: 970px;
+  height: 430px;
+  margin: 0 auto;
+  margin-bottom: 85px;
+  background-image: url("../images/video-bg.png");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+    width: 300px;
+    height: 100px;
+    border-radius: 200px;
+    background-color: transparent;
+    border: 1px solid $white-color;
+    font-weight: 500;
+    line-height: 25.36px;
+    text-align: left;
+    color: $white-color;
+  }
+
+  &__container {
+    border-bottom: 1px solid $light-grey-color;
+  }
+}

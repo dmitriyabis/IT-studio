@@ -1,0 +1,21 @@
+%btn-template {
+  display: block;
+  width: 200px;
+  height: 45px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: $blue-color;
+
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: center;
+  color: $white-color;
+}
+
+%link-template {
+  font-weight: 500;
+  line-height: 19.5px;
+  text-align: left;
+  color: $blue-color;
+  border-bottom: 1px solid $blue-color;
+}

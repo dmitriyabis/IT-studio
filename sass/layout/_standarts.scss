@@ -1,0 +1,65 @@
+.standarts {
+  padding-top: 100px;
+  background-color: rgba(246, 246, 248, 1);
+
+  &__main {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 90px;
+  }
+
+  &__text {
+      margin-top: 52px;
+  }
+
+  &__title {
+      width: 424px;
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 52.66px;
+      text-align: left;
+      color: $dark-color;
+      margin-bottom: 60px;
+  }
+
+  &__desc {
+      width: 489px;
+      font-weight: 400;
+      line-height: 25.36px;
+      text-align: left;
+      margin-bottom: 42px;
+  }
+
+  &__link {
+      @extend %link-template;
+  }
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding: 70px 0;
+  border-top: 1px solid $light-grey-color;
+
+  &__top {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+  }
+
+  &__title {
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 52.66px;
+      text-align: left;
+      color: $black-color;
+  }
+
+  &__desc {
+      font-weight: 400;
+      line-height: 25.36px;
+      text-align: left;
+      color: $grey-color;
+  }
+}
